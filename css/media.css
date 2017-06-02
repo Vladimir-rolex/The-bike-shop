@@ -35,17 +35,59 @@
     .slider-tittle .slider-feature{
     font-size: 20px
     }
+    .index-nav ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    z-index: 1001;
+    background-color: #fcff19;
+    }
+    .index-nav li {
+        display: block;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+        .slider-tittle {
+        bottom: 10%;
+    }
+    .slider-tittle h1 {
+        font-size: 30px;
+    }
+    .slider-tittle .slider-feature{
+    font-size: 20px
+    }
+    
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .slider-tittle {
+        bottom: 0%;
+    }
+    .slider-tittle h1 {
+        font-size: 20px;
+    }
+    .slider-tittle .slider-feature{
+    font-size: 10px
+    }
 
-
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+        .slider-tittle {
+        bottom: 0%;
+    }
+    .slider-tittle h1 {
+        font-size: 30px;
+    }
+    .slider-tittle .slider-feature{
+    font-size: 20px
+    }
+}
 
 
 /*==========  Mobile First Method  ==========*/

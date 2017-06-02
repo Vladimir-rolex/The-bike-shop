@@ -20,7 +20,7 @@ body {
   position: absolute;
   top: 20px;
   width: 100%;
-  z-index: 999; }
+  z-index: 1000; }
 
 .header-top-wrap {
   display: -webkit-box;
@@ -104,7 +104,7 @@ body {
 
 .index-nav-first:hover .sub-menu {
   display: block;
-  z-index: 80; }
+  z-index: 1002; }
 
 .sub-menu li {
   margin: 0;
@@ -121,6 +121,33 @@ body {
   vertical-align: middle;
   text-decoration: none; }
 
+.index-nav-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: transparent; }
+.index-nav-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fcff19; }
+
+.index-nav-icon span::before,
+.index-nav-icon span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fcff19; }
+.index-nav-icon span::before {
+    transform: translate(0, -10px); }
+
+.index-nav-icon span::after {
+    transform: translate(0, 7px); }
 /*Slider */
 .slider {
   position: relative;
